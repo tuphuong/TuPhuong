@@ -1,0 +1,115 @@
+#start{
+	height: 100px;
+	width: 100%;
+}
+body{
+	font-family: Arial;
+}
+.menu{	
+	height: 70px;
+	padding: 10px 60px;
+}
+#start>div{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+#start>a{
+	font-size: 30px;
+}
+#menu{
+	height: 100px;
+	width: 70%;
+	float: left;
+}
+#menu ul{
+	list-style: none;
+}
+.item{
+  float:left;
+  padding-left: 10px;
+  line-height: 100px;
+}
+.item a{
+	text-decoration: none;
+}
+.item:hover>a{
+	color: red;
+}
+#img{
+	width: 100%;
+}
+.icon_heart{
+	float: left;
+	height: 150px;
+	width: 25%;
+	margin-top: 50px;
+	font-size: larger;
+}
+.avt{
+	float: left;
+	height: 150px;
+	width: 25%;
+	margin-top: 50px;
+}
+#mid{
+	height: 400px;
+	width: 100%;
+}
+.img-item{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+#icon i{
+	font-size: xx-large;
+    color: white;
+}
+#icon-two i{
+ 	font-size: xx-large;
+    color: white;
+}
+#check{
+	background-color: red;
+	height: 181px;
+	padding-top:70px;
+	font-size: x-large;
+	color: white;
+}
+#people img{
+	height: 137px;
+	width: 145px;
+	border-radius: 20px;
+}
+/*#last{
+	background: #444444;
+}*/
+.finally{
+	float: left;
+	height: 150px;
+	width: 25%;
+	margin-top: 50px;
+}
+.finally i{
+	float: left;
+}
+#people .avt h3{
+	font-weight: bold;
+	font-size: x-large;
+}
+#people .avt h4{
+	font-size: x-small;
+}
+#check h3{
+	font-size: large;
+}
+#check h4{
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+
+
+
+
+

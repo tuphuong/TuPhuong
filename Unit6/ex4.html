@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<style type="text/css">
+		#menu{
+			background: blue;
+			height: 50px;
+			padding-left: 0px;
+		}
+		.item{
+			float: left;
+			list-style: none;
+			padding-left: 10px;
+			padding-right: 10px;
+			line-height: 50px;
+		}
+		.item:first-child{
+		 	display: block;
+		 }
+		.item a{
+			color: white;
+			text-decoration: none;
+		}
+		.item:hover{
+			background: yellow;
+		}
+		.item:hover a{
+			color: red;
+		}
+		@media (max-width: 618px) { 
+		 .item {
+		 	float: none;
+		 	display: none;
+		 }
+		 .item:first-child{
+		 	display: block;
+		 	width: 10px;
+		 }
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul id="menu">
+			<li class="item">
+				<a href="#"><i class="fas fa-home"></i>Home</a>
+			</li>
+			<li class="item">
+				<a href="#">About</a>
+			</li>
+			<li class="item">
+				<a href="#">News</a>
+			</li>
+			<li class="item">
+				<a href="#">Jobs</a>
+			</li>
+			<li class="item">
+				<a href="#">Jobs</a>
+			</li>
+			<li class="item">
+				<a href="#">Jobs</a>
+			</li>
+			<li class="item">
+				<a href="#">Jobs</a>
+			</li>
+
+		</ul>
+	</nav>
+</body>
+</html>
