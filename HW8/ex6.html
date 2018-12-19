@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button onclick="bai6()">Bài 6</button>
+	<script type="text/javascript">
+		function bai6(){
+			var s=0;
+			do {
+				var n =parseInt(prompt("Nhập  n = "));
+				if (n <= 0) {
+					alert('Bạn phải nhập vào số nguyên dương!');
+				}
+			} while (n <= 0);
+			for (var i = 0; i <= n; i++) {
+				s=s+i;
+			}      
+			alert('Tổng dãy số trên là:' +s);
+		}
+
+	</script>
+	
+</body>
+</html>

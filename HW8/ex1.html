@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/style.js"></script>
+</head>
+<body>
+	<button onclick="Bai1()">Ex1</button>
+	<script type="text/javascript">
+		function Bai1(){
+			var n=parseInt(prompt("Mời bạn nhập số n"));
+			
+			for (var i = 1; i <=n; i++) {
+				for (var j =1; j<=n; j++) {
+					if (i>=j) {
+						document.write("*");
+					}	
+				}
+				document.write("<br>");
+			}
+			document.write("<hr>");
+			for (var i = 1; i <=n; i++) {
+				for (var j =1; j<=n; j++) {
+						document.write("*");
+					}
+					
+				document.write("<br>");
+			}
+			document.write("<hr>");
+			for (var i = 1; i <=n; i++) {
+				for (var j =1; j<=n; j++) {
+					 if (i==1||i==n||j==1||j==n) {
+						document.write("*");
+					}
+					else{
+						document.write("&nbsp&nbsp")
+					}
+					
+				
+			}document.write("<br>");
+		}
+		document.write("<hr>");
+		
+
+		
+		for (var i = n; i >=1; i--) {
+				for (var j =1; j<=n; j++) {
+					if (i>=j) {
+
+						document.write("*");
+					}					
+					else{
+						document.write("&nbsp&nbsp")
+					}
+				}document.write("<br>");
+			}
+		}
+	</script>
+</body>

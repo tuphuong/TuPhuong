@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
+	<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+		<title>Vẽ hình sử dụng vòng lặp - 01</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				margin: 0;
+			}
+
+			#wrapper {
+				background: gray;
+				background-size: cover;
+				width: 100%;
+			}
+			#content {
+				background: green;
+				opacity: 0.9;
+				margin: auto;
+			}
+			#content h1 {
+				text-align: center;
+				width: 100%;
+				opacity: 1;
+				background: gray;
+			}
+			#content input, label {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			#result {
+				width: 100%;
+				font-size: 150%;
+				background: yellow;
+			}
+			@media screen and (min-width: 768px) {
+				#content {
+					width: 60%;
+					margin-top: 50px;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				#content {
+					width: 100%;
+				}
+			}
+		</style>
+		<script>
+			function veHinh() {
+				// khai báo biến
+				var n = document.getElementById('n');
+				var result = document.getElementById('result');
+				var ve = ""; // biến vẽ lưu trữ chuỗi mình vẽ được
+
+				// kiểm tra chiều cao nhập vào có là số không
+				// nếu số thì vẽ
+				// không thì in ra thông báo không đưọc nhập ký tự
+				if(!isNaN(n.value)) {
+					for(var i = 1; i <= n.value; i++ ) {
+						for(var j = 1; j <= i; j++) {
+							ve = ve + "*"; 
+						}
+						ve = ve + "<br/>";
+					}
+					result.innerHTML = ve;
+				}else {
+					result.innerHTML = "Không được nhập ký tự";
+				}
+			}
+		</script>
+	</head>
+	<body id="wrapper">
+		<div id="content">
+			<h1>Vẽ hình sử dụng vòng lặp - 01</h1>
+			<label for="n">Nhập chiều cao: </label>
+			<input type="text" name="soN" id="n" onkeyup="veHinh()">
+			<br/>
+			<div id="result"></div>
+		</div>
+	</body>
 </html>

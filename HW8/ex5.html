@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<button onclick="bai5()">Bài 5</button>
+	<script type="text/javascript">
+	function bai5(){
+		
+        var sum = 0;
+        var giaiThua = 1;
+        do {
+           var n =parseInt(prompt("Nhập  n = "));
+            if (n <= 0) {
+           alert('Bạn phải nhập vào số nguyên dương!');
+            }
+        } while (n <= 0);
+        for (var i = 1; i <= n; i++) {
+            giaiThua *= i;
+            sum += (i / giaiThua);
+        }
+        alert('Tổng = ' + sum);
+    }
+	</script>
+	</body>
+</html>
