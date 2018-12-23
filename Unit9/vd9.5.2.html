@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<br><br><br><br>
+	<img src="item12.png" width="200" height="200" onmouseover="increase()" onmouseout="decrease()">
+	<input id="txt" type="text" name="" value="" placeholder="" onfocus="change()" onblur="reset()">
+	<input type="button" name="" value="tăng" onclick="increase()">
+	<input type="button" name="" value="giảm" onclick="decrease()">
+	<script style="text/javascript">
+		function change(){
+			var txt = document.getElementById("txt");
+			txt.style.background='red';
+		}
+		function reset(){
+			var txt = document.getElementById("txt");
+			txt.style.background= 'white';
+		}	
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<img src="item12.png" width="200" height="200" onmouseover="increase()" onmouseout="decrease()">
+	<input type="button" name="" value="tăng" onclick="increase()">
+	<input type="button" name="" value="giảm" onclick="decrease()">
+	<script style="text/javascript">
+		function increase(){
+			var img =document.getElementsByTagName("img")[0];
+			var width = img.width;
+			var height = img.height;
+			img.width = width*1.2;
+			img.height = height*1.2;
+			img.style.opacity ='0.1';
+		}
+		function decrease(){
+			var img =document.getElementsByTagName("img")[0];
+			var width = img.width;
+			var height = img.height;
+			img.width = width/1.2;
+			img.height = height/1.2;
+			img.style.opacity ='1';
+		}
+	</script>
+</body>
+</html>
+
+

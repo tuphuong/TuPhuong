@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<br><br><br>
+	Giá: <span>2.000.000VNĐ</span>
+	<select name="" id="opt">
+		<option value="1">Black</option>	
+		<option value="2">Red</option>	
+		<option value="3">White</option>	
+	</select>
+	<script type="text/javascript">
+		var opt = document.getElementById("opt");
+		opt.addEventListener("change" sự kiện , change tên hàm);
+		function change(){
+			var gia = document.getElementsByTagName("span")[0];
+			var opt = document.getElementById("opt");
+			if (opt.value==1) {
+				gia.innerHTML="2.000.000VNĐ"
+			}
+			if (opt.value==2) {
+				gia.innerHTML="4.000.000VNĐ"
+			}
+			if (opt.value==3) {
+				gia.innerHTML="6.000.000VNĐ"
+			}
+		}
+	</script>
+
+</body>
+</html>

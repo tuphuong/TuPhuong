@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	Họ tên:<input type="text" name="" value="" id="fullNameId" class="fullNameCls">
+	<span id="content">
+		
+	</span>
+	<input type="button" name="" value="Đổ dữ liệu" onclick="Click()">
+	<script type="text/javascript">
+		function Click(){
+			// var fullName = document.getElementById("fullNameId");
+			var fullName = document.getElementsByClassName("fullNameCls");
+			// var fullName = document.getElementsByTagName("fullNameId");
+			fullName[0].value = "Võ Thị Tú Phương";
+			var content = document.getElementById("content");
+			content.innerHTML = "Võ Thị Tú Phương";
+			content.style.color = "red";
+			content.style.border = "1px solid red";
+			content.style.fontWeight="900";
+			content.style.fontSize="20px";
+		}
+	</script>
+</body>
+</html>
