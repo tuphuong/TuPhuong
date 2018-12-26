@@ -1,0 +1,18 @@
+
+#container .tab{
+ background: #ccc;
+}
+#container .content{
+	width: 50%;
+	height: 100px;
+	background: gray;
+}
+#container .active > .tab{
+	background: orange;
+}
+#container .active{
+	z-index: 1;
+}
+.active > .content{
+	z-index: 2 !important;
+}

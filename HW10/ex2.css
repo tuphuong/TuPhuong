@@ -1,0 +1,62 @@
+body{
+	background: url(image/69579b1526aa53a.jpg);
+	background-size: cover;
+	position: relative;
+}
+.fr{
+	
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 100px;
+}
+.input{
+	border: 2px solid;
+	border-radius: 15px;
+}
+table{
+	width: 100%;
+}
+.btn{
+	text-align: center;
+}
+.title{
+	padding-left: 10px;
+	width: 18%
+}
+input{
+	width: 100%;
+	border: 1px solid;
+	border-radius: 5px;
+	height: 20px;
+	padding-left: 10px;
+}
+.inp{
+	width: 55%;
+	padding-left: 10px;
+}
+td{
+	padding: 7px;
+	font-size: 19px;
+}
+.radio{
+	width: 5%;
+}
+.btn{
+	margin-top: 30px;
+}
+button{
+	width: 10%;
+	height: 30px;
+	background: red;
+	border: 1px groove grey;
+	color: #fff;
+}
+#xoa{
+	margin-left: 200px;
+}
+span{
+	padding-left: 20px;
+	color: black;
+	font-size: 17px;
+}

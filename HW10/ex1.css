@@ -1,0 +1,36 @@
+div{
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+#next{
+	width: 3% !important;
+	height: 70px !important;
+	position: absolute;
+	right: 0px;
+	top: 400px;
+}
+#item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10{
+	display: none;
+}
+button{
+	width: 8px;
+	height: 12px;
+}
+#pre{
+	width: 3% !important;
+	height: 70px !important;
+	position: absolute;
+	left: : 0px;
+	top: 400px;
+}
+#btn{
+	width: auto;
+	position: absolute;
+	right: 50px;
+	bottom: 20px;
+}
+.main{
+	position: relative;
+}
