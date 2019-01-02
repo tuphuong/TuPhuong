@@ -4,7 +4,7 @@ document.getElementById('dki').addEventListener('click', function(e){
 	var email = document.getElementById('email')
 	var phone = document.getElementById('phone')
 	var pass = document.getElementById('pass')
-	var checkpass = document.getElementById('checkpass')
+	var checkpass = document.getElementById('pass1')
 
 	var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 	function checkPhoneNumber() {

@@ -1,0 +1,70 @@
+body{
+	background: #2e2d2d;
+}
+.main{
+	height: auto;
+	margin: 20px 20%;
+	/*position: relative;*/
+	padding-left: 10px;
+}
+.title{
+	height: auto;
+	padding-left: 5%;
+	margin-bottom: 45px;
+}
+.tt{
+	color: #fff;
+	font-size: 80px;
+	font-family: Florence, cursive;
+	font-style: italic;
+	margin: 0px;
+	
+}
+span{
+	font-size: 25px;
+	color: #bdf913;
+}
+.p2{
+	margin-top: 0px;
+	color: #fff;
+	font-style: italic;	
+	font-size: 21px;
+	padding-left: 7%;
+}
+.fa-star{
+	color: #bdf913;
+	font-size: 10px;
+}
+.tab{
+	position: relative;
+	padding: 10px 5%;
+	height: 40px;
+	background: #5d5e57;
+	border-radius: 5px;
+	border: 1px groove grey;
+}
+.text{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 40px;
+	font-family: arial;
+}
+.plus{
+	padding: 10px;
+	background-color: green;
+}
+.content{
+	color: #fff;
+	padding: 10px 5%;
+	font-size: 20px;
+	display: none;
+	background: #5d5e57;
+	border: 1px groove grey;
+	border-radius: 5px;
+	font-family: arial;
+}
+.minus{
+	display: none ;
+	padding: 10px;
+	background-color: green;
+}
