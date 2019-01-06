@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="bai12.css">
+</head>
+<body>
+	<div id="main">
+		<div class="item d1">
+			<span>1. Account</span>
+		</div>
+		<div class="item d2">
+			<span>2. Profile</span>
+		</div>
+		<div class="item d3">
+			<span>3. Warning</span>
+		</div>
+		<div class="item d4">
+			<span>4. Finish</span>
+		</div>
+		<form>
+			<div id="account" class="info">
+				<h2>Account Information</h2>				
+				<hr color="grey" size="1px">
+				<p>User name *</p>
+				<input type="text" name="" id="name" value="">
+				<span class="noti n-name"></span>
+				<p>Password *</p>
+				<input type="password" name="" id="pass" value="">
+				<span class="noti n-pass"></span>
+				<p>Confirm Password *</p>
+				<input type="password" name="" id="confirm-pass" value="">
+				<span class="noti n-con-pass"></span>
+				<p>(*) Mandatory</p>
+			</div>
+			<div id="profile" class="info">
+				<h2>Profile Information</h2>
+				<hr color="grey" size="1px">
+				<p>First name *</p>
+				<input type="text" name="" id="first-name">
+				<span class="noti n-first-name"></span>
+				<p>Last name *</p>
+				<input type="text" name="" id="last-name">
+				<span class="noti n-last-name"></span>
+				<p>Email *</p>
+				<input type="text" name="" id="email">
+				<span class="noti n-email"></span>
+				<p>Address</p>
+				<input type="text" name="" id="addr">
+				<span class="noti n-addr"></span>
+				<p>Age (The warning step will show up if age is less than 18) *</p>
+				<input type="number" name="" id="age">
+				<span class="noti n-age"></span>
+				<p>(*) Mandatory</p>
+			</div>
+			<div id="warning" class="info">
+				<h2>Warning</h2>
+				<hr color="grey" size="1px">
+				<span class="warn"></span>
+			</div>
+			<div id="finish" class="info">
+				<h2>Terms and Conditions</h2>
+				<hr color="grey" size="1px">
+				<input type="checkbox" name="" id="checkbox">I agree with the Terms and Conditions.
+				<span  class="noti n-check"></span>
+			</div>
+		</form>
+		<div class="btn">
+			<button id="pre">Previous</button>
+			<button id="next">Next</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="bai12.js"></script>
+</body>
+</html>

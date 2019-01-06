@@ -1,0 +1,83 @@
+#main{
+	height: auto;
+	margin: 20px 20%;
+	text-align: center;
+	font-family: arial;
+}
+.item{
+	display: inline-block;
+	width: 23%;
+	height: 60px;
+	margin: 10px 5px;
+	background: #c9ecf2;
+	border-radius: 15px; 
+	color: #fff;
+	font-size: 20px;
+	text-align: center; 
+}
+.d1{
+	margin-left: 0px;
+}
+.d4{
+	margin-right: 0px;
+}
+.d1{
+	background: #10b4d2;
+}
+form{
+	margin: 0px 15px;
+	height: auto;
+	background: #eef0f0;
+	border-radius: 15px; 
+	text-align: left;
+	padding: 10px 3%;
+}
+span{
+	line-height: 60px;
+}
+
+h2{
+	margin: 0px;
+	font-weight: normal;
+	padding: 10px 0px;
+}
+.btn{
+	text-align: right;
+	margin: 15px;
+}
+button{
+	width: auto;
+	height: 40px;
+	background: #10b4d2;
+	border: none;
+	border-radius: 10px;
+	padding: 5px 20px;
+	margin-left: 20px;
+	color: #fff;
+	font-family: arial;
+	font-size: 15px;
+}
+#pre{
+	background:#c9ecf2; 
+}
+input{
+	width: 40%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+#checkbox{
+	width: 20px !important;
+	height: 15px !important;
+}
+#profile, #warning, #finish{
+	display: none;
+}
+.noti{
+	padding-left: 15px;
+	color: red;
+	font-size: 14px;
+}
+.choose{
+	background: #aceace;
+}
